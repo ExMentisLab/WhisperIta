@@ -13,7 +13,7 @@ git clone https://github.com/ExMentisLab/WhisperIta
 
 - Installate le dipendenze:
 ```
-pip3 install -f requirements.txt
+pip3 install -r requirements.txt
 ```
 
 - lanciate l'app gradio:
