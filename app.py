@@ -26,10 +26,7 @@ def transcribe(microphone, file_upload):
 
     text = asr(file)["text"]
 
-    translate = translator(text)
-    translate = translate[0]["translation_text"]
-
-    return warn_output + text, translate
+    return warn_output + text
 
 
 def main():
